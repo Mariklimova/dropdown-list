@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    font-style: normal;
+    padding: 0;
+}
+
+input{
+    border-radius: 8px;
+    border-width: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    width: 256px;
+    color: #333;
+    font: 400 16px Montserrat;
+    padding: 12px;
+}
+.img{
+    background-image: url(./arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 10px;
+    height: 5px;
+    display: inline-block;
+    position: relative;
+    right: 40px;
+    bottom: 3px;
+}
+
+.block {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    width: 280px;
+    margin-top: 5px;
+   
+}
+
+.block p {
+    color: #333;
+    font: 400 16px Montserrat;
+    padding: 12px;
+}
